@@ -10,7 +10,7 @@ The primary goal of this research is to develop a method for locating the curren
 - RTX 3080 Ti
 ## Getting start
 1.Download clip-UAV file to your computer
-2.Downloda [dataset file]() to your computer(remember your file location)
+2.Downloda [dataset file](https://github.com/codebra721/CCU-UAV-bird-view-dataset) to your computer(remember your file location)
 3.add clip-UAV environment to anaconda
 ```bash
 conda env create -f clip-UAV.yml
@@ -24,7 +24,7 @@ dataset = GeoDataLoader(csv_file='/home/rvl122/mydataset/', dataset_folder='/hom
 python main.py
 ```
 ## Notice!!
-if you want to use yourself dataset, you can reference [dataset file]() arch to modified your.
+if you want to use yourself dataset, you can reference [dataset file](https://github.com/codebra721/CCU-UAV-bird-view-dataset) arch to modified your.
 ## Citation
 ```bibtex
 @inproceedings{geoclip,
